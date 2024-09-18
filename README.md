@@ -1,24 +1,22 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Mechanical Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Characterization of Materials
+<b> Experiment|     <b> Measurements of dislocation density in cold rolled metals 
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Krishanu Biswas 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  IIT Kanpur
+<b> Email id|     <b>  kbiswas@iitk.ac.in
+<b> Department |  Mechanical Engineering
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Sushant Kumar | Student | Computer Science | BU Jhansi | sushantsrivastava9919@gmail.com

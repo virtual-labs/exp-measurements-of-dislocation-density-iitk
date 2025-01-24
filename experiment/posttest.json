@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following best describes the magnitude of the Burgers vector, b, in most metals?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "On the order of micrometers (μm)",
+        "b": "On the order of nanometers (nm)",
+        "c": "On the order of millimeters (mm)",
+        "d": "On the order of picometers (pm)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a TEM-based dislocation density measurement, if the sample thickness (t) is doubled while the dislocation line length (Ld) and imaged area (A) remain the same, the calculated dislocation density will:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Double",
+        "b": "Remain the same",
+        "c": "Be halved",
+        "d": "Become undefined"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +33,74 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For XRD-based methods, peak broadening in cold-rolled metals can result from dislocations and which other major factor?",
+      "answers": {
+        "a": "Electron backscatter",
+        "b": "Crystallite size (grain refinement)",
+        "c": "Sample composition",
+        "d": "Microtoming artifacts"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "During TEM imaging, dislocations appear as dark lines primarily because they:",
+      "answers": {
+        "a": "Emit their own electrons",
+        "b": "Have a different chemical composition",
+        "c": "Cause local lattice strain that alters electron scattering",
+        "d": "Reflect more X-rays than the surrounding matrix"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The formula ρ=L_d/(A x t) (or ρ=N/(A x t) if counting discrete segments) is used to calculate:",
+      "answers": {
+        "a": "Microstrain",
+        "b": "Average grain size",
+        "c": "Dislocation density",
+        "d": "Lattice parameter"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which parameter below is not directly required in calculating dislocation density using a single XRD peak-broadening method?",
+      "answers": {
+        "a": "The Burgers vector b",
+        "b": "The sample thickness t",
+        "c": "The lattice strain ϵ",
+        "d": "The diffraction peak broadening β"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

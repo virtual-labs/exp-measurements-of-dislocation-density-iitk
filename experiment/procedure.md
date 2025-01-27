@@ -1,5 +1,5 @@
 <b>A. XRD-Based Dislocation Density Measurement </b> <br>
-1. 	Collect the diffraction pattern of the cold-rolled metal sample.<br>
+1.	Collect the diffraction pattern of the cold-rolled metal sample.<br>
 2.	Choose a relevant diffraction peak (e.g., a strong, well-resolved peak) for analysis.<br>
 3. 	Determine Peak Broadening<br>
 4.	Measure the peak’s full width at half maximum (FWHM), denoted as β.<br>
@@ -15,8 +15,8 @@
     And then use the derived value in the equation:<br>
     δ = 1/D<sup>2'</sup>										(2)
 where δ = dislocation density <br>
-11	Perform the above steps on different peaks to verify consistency. <br>
-12	Average the resulting dislocation density values for a representative result.<br>
+11.	Perform the above steps on different peaks to verify consistency. <br>
+12.	Average the resulting dislocation density values for a representative result.<br>
 
 <image src="images\Picture1.png"><br>
 Figure 1: X-ray diffractogram for cold rolled metals and computation of dislocation density. <br>

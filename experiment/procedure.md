@@ -8,7 +8,7 @@
 7.	Obtain the instrumental FWHM from a strain-free standard sample. <br>
 8.	Subtract this instrumental contribution from β to isolate broadening due to lattice imperfections. <br>
 9.	Calculate the dislocation density using the Scherrer’s formula: <br>
-10.	β = Kλ/Dcosθ<sup>'</sup>	.............................(2)<br>
+10.	β = Kλ/Dcosθ<sup>'</sup>	.............................(1)<br>
     where D = crystallite size, λ = wavelength of X-ray, θ = Bragg’s diffraction angle, <br>
     K = dimensionless shape factor ≈ 0.9<br>
 

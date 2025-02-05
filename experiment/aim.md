@@ -1,1 +1,1 @@
-### To measure dislocation density using XRD patterns and TEM nanographs
+To measure dislocation density using XRD patterns and TEM nanographs

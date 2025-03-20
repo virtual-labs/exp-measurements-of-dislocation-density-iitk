@@ -10,7 +10,7 @@
         "d": "They completely change the crystal structure"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -27,7 +27,7 @@
         "d": "EBSD indexing"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -44,7 +44,7 @@
         "d": "remove atoms completely from the sample"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -78,7 +78,7 @@
         "d": "N/m"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -89,13 +89,13 @@
     {
       "question": "In cold-rolled metals, the typical range for high dislocation densities is around __________.",
       "answers": {
-        "a": "103 to 105 m-2",
-        "b": "107 to 109m-2",
-        "c": "1014 to 1015 m-2",
-        "d": "1024 to 1026 m-2"
+        "a": "103 to 105 m⁻²",
+        "b": "107 to 109 m⁻²",
+        "c": "1014 to 1015 m⁻²",
+        "d": "1024 to 1026 m⁻²"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -112,7 +112,7 @@
         "d": "ignore instrumental broadening as it is negligible"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"

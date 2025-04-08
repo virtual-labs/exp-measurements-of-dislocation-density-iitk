@@ -10,7 +10,7 @@
         "d": "On the order of picometers (pm)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -27,7 +27,7 @@
         "d": "Become undefined"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -44,7 +44,7 @@
         "d": "Microtoming artifacts"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -61,7 +61,7 @@
         "d": "Reflect more X-rays than the surrounding matrix"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The formula ρ=L_d/(A x t) (or ρ=N/(A x t) if counting discrete segments) is used to calculate:",
+      "question": "The formula ρ = Lₖ / (A x t) (or ρ = N / (A x t) if counting discrete segments) is used to calculate:",
       "answers": {
         "a": "Microstrain",
         "b": "Average grain size",
@@ -78,7 +78,7 @@
         "d": "Lattice parameter"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -95,7 +95,7 @@
         "d": "The diffraction peak broadening β"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1 ",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -105,3 +105,5 @@
     }
   ]
 }
+
+

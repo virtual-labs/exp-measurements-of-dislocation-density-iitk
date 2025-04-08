@@ -8,7 +8,7 @@ X-ray diffraction (XRD) is a technique used to study the arrangement of atoms in
 To estimate the dislocation density using XRD, researchers often measure the broadening of the diffraction peaks and apply mathematical models (for example, Scherrer equation or other line broadening methods). The idea is that the smaller the crystallites (coherently scattering domains), the broader the XRD peaks. By comparing the measured broadening to well-established equations, we can calculate an approximate number of dislocations per unit volume—known as the dislocation density.
 According to Scherrer’s formula for peak broadening β,<br>
 
-<img src="images/img_1.png"><br>
+<img src="images/img_1.png"><br><br>
 where D = crystallite size, λ = wavelength of X-ray, θ = Bragg’s diffraction angle, K = dimensionless shape factor ≈ 0.9 <br>
 And then dislocation density δ can be estimated using the derived value in the equation: <br>
 
@@ -24,7 +24,7 @@ To estimate dislocation density from a TEM image, one common approach is to meas
 where L = total length of dislocation lines, A = area of the observed region, t = thickness of foil sample, and ρ = dislocation density (m⁻²)<br><br>
 
 •	If counting discrete lines, use :<br>
-<img src="images/img_4.png"><br>
+<img src="images/img_4.png"><br><br>
 where N = no. of discrete dislocation segments<br><br>
 
 This provides a straightforward but direct measure of how many dislocations exist in the metal, which can be compared to the estimates made from XRD peak broadening for a more comprehensive understanding of the cold-rolled material’s defect structure.

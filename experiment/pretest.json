@@ -61,7 +61,7 @@
         "d": "the chemical composition of the metal"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -72,9 +72,9 @@
     {
       "question": "Dislocation density is generally expressed in which unit?",
       "answers": {
-        "a": "m-2",
-        "b": "atoms/cm3",
-        "c": "g/cm3",
+        "a": "m⁻²",
+        "b": "atoms/cm³",
+        "c": "g/cm³",
         "d": "N/m"
       },
       "explanations": {
@@ -89,10 +89,10 @@
     {
       "question": "In cold-rolled metals, the typical range for high dislocation densities is around __________.",
       "answers": {
-        "a": "103 to 105 m⁻²",
-        "b": "107 to 109 m⁻²",
-        "c": "1014 to 1015 m⁻²",
-        "d": "1024 to 1026 m⁻²"
+        "a": "10³ to 10⁵ m⁻²",
+        "b": "10⁷ to 10⁹ m⁻²",
+        "c": "10¹⁴ to 10¹⁵ m⁻²",
+        "d": "10²⁴ to 10²⁶ m⁻²"
       },
       "explanations": {
         "a": "Explanation 1",

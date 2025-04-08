@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In a TEM-based dislocation density measurement, if the sample thickness (t) is doubled while the dislocation line length (Ld) and imaged area (A) remain the same, the calculated dislocation density will:",
+      "question": "In a TEM-based dislocation density measurement, if the sample thickness (t) is doubled while the dislocation line length (L<sub>d</sub>) and imaged area (A) remain the same, the calculated dislocation density will:",
       "answers": {
         "a": "Double",
         "b": "Remain the same",

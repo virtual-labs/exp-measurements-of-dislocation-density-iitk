@@ -70,7 +70,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The formula ρ = L_{d} / (A x t) (or ρ = N / (A x t) if counting discrete segments) is used to calculate:",
+      "question": "The formula ρ = L<sub>d</sub> / (A x t) (or ρ = N / (A x t) if counting discrete segments) is used to calculate:",
       "answers": {
         "a": "Microstrain",
         "b": "Average grain size",

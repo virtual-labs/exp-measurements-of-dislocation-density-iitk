@@ -133,7 +133,7 @@
 //   var avhandle = $("#avslider").find(".custom-handle");
 //   var mhandle = $("#mslider").find(".custom-handle");
 
-//   // vaccum slider
+//   // Vacuum slider
 //   $("#vslider").slider({
 //     min: 0,
 //     max: 2,
@@ -236,7 +236,7 @@
 //   });
 //   // beam ends
 
-//   // vaccum
+//   // Vacuum
 //   $("#setvac").click(function () {
 //     if (english) {
 //       type("Now set accelerating voltage.");
@@ -245,7 +245,7 @@
 //       type("अब त्वरित वोल्टेज सेट करें|");
 //       textToSpeech("अब त्वरित वोल्टेज सेट करें", "hi-IN");
 //     }
-//     showToast("Vaccum set.");
+//     showToast("Vacuum set.");
 
 //     $("#setav").prop("disabled", false);
 //     $("#avslider").slider("option", "disabled", false);
@@ -311,7 +311,7 @@
 
 //   $("#insertButton").click(function () {
 //     if (isImageYDropped == true) {
-//       showToast("Set vaccum");
+//       showToast("Set Vacuum");
 //       setTimeout(function () {
 //         $("#part11").css("visibility", "visible");
 //       }, 1500);
@@ -685,7 +685,7 @@ $(function () {
   var avhandle = $("#avslider").find(".custom-handle");
   var mhandle = $("#mslider").find(".custom-handle");
 
-  // vaccum slider
+  // Vacuum slider
   $("#vslider").slider({
     min: 0,
     max: 2,
@@ -788,7 +788,7 @@ $(function () {
   });
   // beam ends
 
-  // vaccum
+  // Vacuum
   $("#setvac").click(function () {
     if (english) {
       type("Now set accelerating voltage.");
@@ -797,7 +797,7 @@ $(function () {
       type("अब त्वरित वोल्टेज सेट करें|");
       textToSpeech("अब त्वरित वोल्टेज सेट करें", "hi-IN");
     }
-    showToast("Vaccum set.");
+    showToast("Vacuum set.");
 
     $("#setav").prop("disabled", false);
     $("#avslider").slider("option", "disabled", false);
@@ -885,7 +885,7 @@ $(function () {
 
   $("#insertButton").click(function () {
     if (isImageYDropped == true) {
-      showToast("Set vaccum");
+      showToast("Set Vacuum");
       setTimeout(function () {
         $("#part11").css("visibility", "visible");
       }, 1500);

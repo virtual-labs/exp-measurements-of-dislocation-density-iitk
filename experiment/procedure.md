@@ -10,11 +10,7 @@
 9.	Calculate the crystallite size using the Scherrer’s formula.<br>
 10.	Calculate the dislocation density from the average crystallite size.<br>
 11.	Perform the above steps on different peaks to verify consistency.<br>
-12.	Average the resulting dislocation density values for a representative result.<br><br>
 
-
-<image src="images\Picture1.png"><br>
-Figure 1: X-ray diffractogram for cold rolled metals and computation of dislocation density. <br><br>
 
 <b>B. TEM-Based Dislocation Density Measurement </b><br>
 1.	Prepare TEM Sample → Create a thin foil (using techniques like mechanical polishing and ion milling) so electrons can transmit through the sample.<br>
@@ -30,9 +26,3 @@ b) The number of discrete dislocation segments (N).<br>
 9.	Calculate Dislocation Density<br>
 10.	Repeat for Multiple Regions<br>
 11.	Collect images from different regions of the sample to ensure statistical validity.<br>
-12.	Average the dislocation densities from all micrographs for a final representative value.<br>
-
-
-<image src="images\Picture2.png"><br>
-
-Figure 2: TEM nanograph for cold rolled metal showing dislocations.<br>

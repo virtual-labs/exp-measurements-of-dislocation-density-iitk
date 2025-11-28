@@ -30,6 +30,35 @@ where N = no. of discrete dislocation segments<br><br>
 This provides a straightforward but direct measure of how many dislocations exist in the metal, which can be compared to the estimates made from XRD peak broadening for a more comprehensive understanding of the cold-rolled material’s defect structure.
 
 
+12.	Average the resulting dislocation density values for a representative result.<br><br>
+
+
+<image src="images\Picture1.png"><br>
+Figure 1: X-ray diffractogram for cold rolled metals and computation of dislocation density. <br><br>
+
+<b>B. TEM-Based Dislocation Density Measurement </b><br>
+1.	Prepare TEM Sample → Create a thin foil (using techniques like mechanical polishing and ion milling) so electrons can transmit through the sample.<br>
+2.	Acquire TEM Micrographs<br>
+3.	Use bright-field or diffraction-contrast TEM imaging to observe dislocations.<br>
+4.	Adjust imaging conditions (voltage, focus, etc.) to clearly see dislocation lines.<br>
+5.	Measure Dislocations in Images<br>
+6.	Use image analysis software (e.g., ImageJ) to measure either:<br>
+a) The total length of dislocation lines (Lₐ).<br>
+b) The number of discrete dislocation segments (N).<br>
+7.	Determine Foil Thickness<br>
+8.	Measure or estimate the sample thickness (t) using methods such as convergent beam electron diffraction (CBED) or thickness fringes.<br>
+9.	Calculate Dislocation Density<br>
+10.	Repeat for Multiple Regions<br>
+11.	Collect images from different regions of the sample to ensure statistical validity.<br>
+12.	Average the dislocation densities from all micrographs for a final representative value.<br>
+
+
+<image src="images\Picture2.png"><br>
+
+Figure 2: TEM nanograph for cold rolled metal showing dislocations.<br>
+
+
+
 
 
 

@@ -1,4 +1,30 @@
-<b>A. XRD-Based Dislocation Density Measurement </b> <br>
+<b>Step 1:</b> Select the preferred <b>Language (English or Hindi)</b> from the language selection option.
+
+<b>Step 2:</b> Switch on the <b>TEM machine</b> and allow the system to initialize.
+
+<b>Step 3:</b> Click on the <b>Remove Sample Holder</b> button to safely remove the sample holder from the machine.
+
+<b>Step 4:</b> Drag and drop the selected sample onto the <b>Sample Holder</b>.
+
+<b>Step 5:</b> Click on the <b>Insert Sample Holder</b> button to reinsert the sample holder into the TEM.
+
+<b>Step 6:</b> Set the <b>Vacuum Level</b> to <b>LV</b> and click <b>Set</b> to apply the configuration.
+
+<b>Step 7:</b> Adjust the <b>Accelerating Voltage</b> within the range of <b>100 kV to 200 kV</b>, then click <b>Set</b>.
+
+<b>Step 8:</b> Select the <b>Material</b> for analysis.
+
+<b>Step 9:</b> Switch <b>ON</b> the <b>Electron Beam</b> to begin observation.
+
+<b>Step 10:</b> To calculate the <b>Dislocation Density (ρ)</b>, enter the following parameters:
+  1. <b>Total Dislocation Length (L)</b> with appropriate units (<b>m / mm / µm / nm</b>)
+  2. <b>Image Area (A)</b> with appropriate units (<b>m² / mm² / µm²</b>)
+  3. <b>Foil Thickness (t)</b> with appropriate units (<b>m / mm / µm</b>)
+
+<b>Step 11:</b> Click on the <b>Dislocation</b> button to calculate and display the <b>Dislocation Density (ρ)</b>.
+
+
+<!--<b>A. XRD-Based Dislocation Density Measurement </b> <br>
 1.	Collect the diffraction pattern of the cold-rolled metal sample.<br>
 2.	Choose a relevant diffraction peak (e.g., a strong, well-resolved peak) for analysis.<br>
 3.	Determine Peak Broadening<br>

@@ -20,3 +20,5 @@
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Sushant Kumar | Student | Computer Science | BU Jhansi | sushantsrivastava9919@gmail.com
+2 | Saumya Ranjan Jha | Student | MSE  |  IIT Kanpur | saumyaranjanjha@gmail.com
+3 | Khushboo Singh | MSE |  Employee |  IIT Kanpur | skhushboo@iitk.ac.in

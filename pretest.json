@@ -1,0 +1,124 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In XRD, why do dislocations in cold-rolled metals cause peak broadening?",
+      "answers": {
+        "a": "They strongly absorb incident X-rays",
+        "b": "They create lattice distortions and micro-strains",
+        "c": "They reduce the number of diffraction planes",
+        "d": "They completely change the crystal structure"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which line-broadening analysis method is commonly used to estimate dislocation density from XRD data?",
+      "answers": {
+        "a": "Rietveld refinement",
+        "b": "EDS mapping",
+        "c": "Williamson-Hall plotting",
+        "d": "EBSD indexing"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Transmission Electron Microscopy (TEM), dislocations are visible because they __________.",
+      "answers": {
+        "a": "reflect more electrons than the surrounding matrix",
+        "b": "emit X-rays that are detected by the microscope",
+        "c": "cause local contrast differences by bending the lattice planes",
+        "d": "remove atoms completely from the sample"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To calculate dislocation density using a TEM micrograph, you need to know the total length of dislocation lines and __________.",
+      "answers": {
+        "a": "the crystal orientation alone",
+        "b": "the thickness of the sample foil and the imaged area",
+        "c": "the energy of the electron beam",
+        "d": "the chemical composition of the metal"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Dislocation density is generally expressed in which unit?",
+      "answers": {
+        "a": "m⁻²",
+        "b": "atoms/cm³",
+        "c": "g/cm³",
+        "d": "N/m"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In cold-rolled metals, the typical range for high dislocation densities is around __________.",
+      "answers": {
+        "a": "10³ to 10⁵ m⁻²",
+        "b": "10⁷ to 10⁹ m⁻²",
+        "c": "10¹⁴ to 10¹⁵ m⁻²",
+        "d": "10²⁴ to 10²⁶ m⁻²"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To separate the true peak broadening from instrumental effects in XRD dislocation analysis, researchers typically __________.",
+      "answers": {
+        "a": "use the same measurement on multiple instruments",
+        "b": "subtract the instrumental broadening measured with a strain-free reference",
+        "c": "rely solely on TEM images for correction",
+        "d": "ignore instrumental broadening as it is negligible"
+      },
+      "explanations": {
+        "a": "Explanation 1",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

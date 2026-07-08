@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="css/main.css">
-	  <link rel="stylesheet" href="css/simulator.css" />
-    <link rel="stylesheet" href="css/controls.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-  	<link rel="stylesheet" href="css/modify.css">
-</head>
-<body style="background-color: #afafc3;">
-	
-	  <div
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TEM</title>
+
+    <link rel="stylesheet" href="../css/simulator.css" />
+    <link rel="stylesheet" href="../css/controls.css" />
+    <link rel="stylesheet" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous"> -->
+  </head>
+
+  <body>
+    <!-- dialogue-box -->
+    <div
 
       id="dialogue-box-parent"
       style="
@@ -24,7 +30,7 @@
       "
     >
       <div class="dialogue-box">
-        <h4>WELCOME TO THE TRANSMISSION ELECTRON MICROSCOPE SIMULATION</h4>
+        <h1>WELCOME TO THE TRANSMISSION ELECTRON MICROSCOPE SIMULATION</h1>
         <h4 style="color: #16b639; font-style: italic">
           Choose the language for instructions:
         </h4>
@@ -41,8 +47,8 @@
 
     <!-- experiment instructions -->
 
-    <div style="background-color: #090909;" class=" container-fluid ">
-      <div class="">
+    <div class="mg card fluid-container mb-2">
+      <div class="header-bar p-2">
         <h4 class="" style="color: blue; font-style: italic; display: inline-block;">Instructions:</h4>
         <div id="typer" style="display: inline-block; margin-left: 1rem; font-size: larger; font-weight: bold;"></div>
       </div>
@@ -99,7 +105,7 @@
           <div class="col-sm-4" id="sample">
             <img
               id="image-y"
-              src="images/parts/specimen.png"
+              src="../images/parts/specimen.png"
               alt="Y"
               class="img-thumbnail img-fluid moveable-image y"
             />
@@ -168,73 +174,42 @@
         <!-- beam on -->
         <div class="">
           <button id="on" class="but sm w-50 m-3" disabled>Beam On</button>
-          
+          <!-- <button id="reloadButton" class="but sm w-50 m-3" disabled>Reset</button> -->
         </div>
+        <!-- beam off -->
 
-
-<div class="boxx">
-  <form id="calcForm" style="display:flex; flex-direction:column; align-items:center; width:100%;">
-
-
-   <label>Total Dislocation Length (L):</label>
-<div class="rowBox">
-  <input type="number" id="lengthInput" placeholder="0" step="any" required />
-  <select id="lengthUnit">
-    <option value="1">m</option>
-    <option value="0.001">mm</option>
-    <option value="0.000001">µm</option>
-    <option value="0.000000001">nm</option>
-  </select>
-</div>
-
-<label>Image Area (A):</label>
-<div class="rowBox">
-  <input type="number" id="areaInput" placeholder="0" step="any" required />
-  <select id="areaUnit">
-    <option value="1">m²</option>
-    <option value="0.000001">mm²</option>
-    <option value="0.000000000001">µm²</option>
-  </select>
-</div>
-
-<label>Foil Thickness (t):</label>
-<div class="rowBox">
-  <input type="number" id="thicknessInput" placeholder="0" step="any" required />
-  <select id="thicknessUnit">
-    <option value="1">m</option>
-    <option value="0.001">mm</option>
-    <option value="0.000001">µm</option>
-  </select>
-</div>
-
-
-    <button style="margin-top:15px;" type="submit" class="btn btn-success">Dislocation ρ</button>
-
-    <div style="width:100%; max-width:350px; display:flex; align-items:center; gap:10px; margin-top:15px;">
-      <label style="white-space:nowrap;">Dislocation ρ (m⁻²):</label>
-      <input type="text" id="resultInput" readonly style="flex:1;" />
-    </div>
-
-  </form>
-</div>
-
-
-       
+        <!-- magnification slider -->
+        <!-- <div class="boxx mt-2">
+          <label for="formControlRange">Magnification</label>
+          <div class="row">
+            <div class="col-9">
+              <div id="mslider" class="mt-3">
+                <div
+                  class="custom-handle ui-slider-handle"
+                  style="padding: 0px"
+                ></div>
+              </div>
+            </div>
+            <div class="col-3">
+              <button id="setmag" class="button-91 w-100" disabled>Set</button>
+            </div>
+          </div>
+        </div> -->
         <!-- Density calculator Input Box -->
-        <!-- <div class="boxx "> -->
-          <!-- <form id="calcForm">
-         
-            <label for="name">Total Dislocation() Length (in μm):</label>
+        <div class="boxx ">
+          <form id="calcForm">
+            <!-- Text Input Field -->
+            <label for="name">Total Dislocation Length (in μm):</label>
             <input
-              type="Number"
+              type="text"
               id="lengthInput"
               name="name"
-              placeholder="0"
+              placeholder=""
               required
             />
             <br />
             <br />
-          
+            <!-- Submit Button -->
             <button class="button-91 w-25 p-2" type="submit">Dislocation Density (ρ)</button>
            
             <label for="result">Result (10<sup>12</sup>m<sup>-2</sup>):</label>
@@ -244,11 +219,8 @@
               name="result"
               readonly
             /><br /><br />
-          </form> -->
-
-        
-
-        <!-- </div> -->
+          </form>
+        </div>
         <!-- magnification slider end -->
       </div>
       <!-- col 1 end -->
@@ -266,25 +238,25 @@
           <!-- parts -->
           <img
             data-id="9"
-            src="images/bg/tem-3d3.png"
+            src="../images/bg/tem-3d3.png"
             class="part a"
             style="width: 25rem; height: 43rem"
           />
 
           <div class="image-hover" style="top: 4.6rem; right: -0.2rem">
-            <img id="part1" src="images/parts/eg.png" alt="Hover Image" />
+            <img id="part1" src="../images/parts/eg.png" alt="Hover Image" />
             <div class="hover-text card">
               <p>Electron Gun</p>
             </div>
           </div>
           <div class="image-hover" style="top: 3.6rem">
-            <img src="images/parts/red.png" id="part2" />
+            <img src="../images/parts/red.png" id="part2" />
             <div class="hover-text card">
               <p>Anode</p>
             </div>
           </div>
           <div class="image-hover" style="top: 2.3rem">
-            <img src="images/parts/pink.png" id="part3" />
+            <img src="../images/parts/pink.png" id="part3" />
             <div class="hover-text card">
               <p>Condenser-lens-1</p>
             </div>
@@ -293,7 +265,7 @@
             <img
               data-id="4"
               title="specimen"
-              src="images/parts/green.png"
+              src="../images/parts/green.png"
               id="part4"
             />
             <div class="hover-text card">
@@ -306,7 +278,7 @@
             <img
               data-id="4"
               title="specimen"
-              src="images/parts/specimen.png"
+              src="../images/parts/specimen.png"
               id="part11"
             />
           </div>
@@ -316,7 +288,7 @@
             <img
               data-id="5"
               title="coil"
-              src="images/parts/blue.png"
+              src="../images/parts/blue.png"
               id="part5"
             />
             <div class="hover-text card">
@@ -327,7 +299,7 @@
             <img
               data-id="6"
               title="objective_aperture_lens"
-              src="images/parts/green.png"
+              src="../images/parts/green.png"
               id="part6"
             />
             <div class="hover-text card">
@@ -338,7 +310,7 @@
             <img
               data-id="7"
               title="intermediate_lens"
-              src="images/parts/green.png"
+              src="../images/parts/green.png"
               id="part7"
             />
             <div class="hover-text card">
@@ -349,7 +321,7 @@
             <img
               data-id="8"
               title="projector_lens"
-              src="images/parts/pink.png"
+              src="../images/parts/pink.png"
               id="part8"
             />
             <div class="hover-text card">
@@ -360,7 +332,7 @@
             <img
               data-id="8"
               title="projector_lens"
-              src="images/parts/pink.png"
+              src="../images/parts/pink.png"
               id="part9"
             />
             <div class="hover-text card">
@@ -371,7 +343,7 @@
             <img
               data-id="8"
               title="projector_lens"
-              src="images/parts/blue.png"
+              src="../images/parts/blue.png"
               id="part10"
             />
             <div class="hover-text card">
@@ -382,7 +354,7 @@
             <img
               data-id="9"
               title="fluorescent-screen"
-              src="images/parts/fluorescent_screen_4.png"
+              src="../images/parts/fluorescent_screen_4.png"
               id="fluorescent_screen"
             />
             <div class="hover-text card">
@@ -394,7 +366,7 @@
             <img
               data-id="10"
               title="sample_holder1"
-              src="images/parts/sample_holder1.png"
+              src="../images/parts/sample_holder1.png"
               id="image-x"
               class="moveable-image x"
             />
@@ -440,9 +412,39 @@
       <!-- col 2 end -->
 
       <!-- col 3 start -->
-      <div style="background-color: #090909;" class="card col-xl-5 themed-grid-col">
+      <div class="card col-xl-5 themed-grid-col">
         <!-- image formed output -->
-		    <div class="alert alert-success d-flex align-items-center" role="alert">
+        <div class="col-12" id="output">
+          <div class="panel">
+            <figure data-zoom data-zoom-max="5">
+              <img
+                id="outImage1"
+                style="display: none"
+                class="w-100"
+                src="../images/outputs/dislocatedImage.jpg"
+              />
+            </figure>
+            <figure data-zoom data-zoom-max="5">
+              <img
+                id="outImage2"
+                style="display: none"
+                class="w-100"
+                src="../images/outputs/ring.jpg"
+              />
+            </figure>
+            <figure data-zoom data-zoom-max="5">
+              <img
+                id="outImage3"
+                style="display: none"
+                class="w-100"
+                src="../images/outputs/zoom.png"
+              />
+            </figure>
+          </div>
+        </div>
+        <!-- end of image formed output -->
+        <!-- theory -->
+        <div class="alert alert-success d-flex align-items-center" role="alert">
           <svg
             class="bi flex-shrink-0 me-2"
             style="height: 2rem; width: 2rem"
@@ -451,41 +453,8 @@
           >
             <use xlink:href="#info-fill" />
           </svg>
-		  <div>Please follow the instructions carefully. Handle with care.</div>
-        
+          <div>Please follow the instructions carefully. Handle with care.</div>
         </div>
-		   
-        <div class="col-12" id="output">
-          <div class="panel">
-            <figure data-zoom data-zoom-max="5">
-              <img
-                id="outImage1"
-                style="display: none"
-                class="w-100"
-                src="images/outputs/dislocatedImage.jpg"
-              />
-            </figure>
-            <figure data-zoom data-zoom-max="5">
-              <img
-                id="outImage2"
-                style="display: none"
-                class="w-100"
-                src="images\outputs\dislocatedImage.jpg"
-              />
-            </figure>
-            <figure data-zoom data-zoom-max="5">
-              <img
-                id="outImage3"
-                style="display: none"
-                class="w-100"
-                src="images\outputs\dislocatedImage.jpg"
-              />
-            </figure>
-          </div>
-        </div>
-        <!-- end of image formed output -->
-        <!-- theory -->
-     
         <!-- end of theory code -->
       </div>
       <!-- col 3 end -->
@@ -495,10 +464,9 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     ></script>
 
-    <script src="js\bootstrap.bundle.min.js"></script>
-    <script src="js\jquery-ui.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
 
-    <script src="js\simulator.js"></script>
-        <script src="js/main.js"></script>
-</body>
+    <script src="../js/simulator.js"></script>
+  </body>
 </html>
